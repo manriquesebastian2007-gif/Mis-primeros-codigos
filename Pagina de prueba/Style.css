@@ -1,0 +1,36 @@
+/* Estilos para el título principal */
+h1 {
+    margin-bottom: 15px; /* Espacio debajo del h1 */
+    margin-left: 20px;   /* Espacio a la izquierda */
+}
+
+/* Estilos para los subtítulos */
+h2 {
+    margin-top: 20px;    /* Espacio arriba */
+    margin-bottom: 15px; /* Espacio abajo */
+    margin-left: 20px;   /* Espacio a la izquierda */
+}
+
+/* Estilos para los párrafos de texto */
+p {
+    margin-left: 30px;   /* Sangría / margen izquierdo */
+    line-height: 1.2;    /* Espacio entre líneas */
+    max-width: 800px;    /* Ancho máximo para que las líneas no sean infinitas */
+}
+
+/* Estilos para los enlaces */
+a {
+    margin-left: 30px;
+    color: #1a0dab;      /* Color azul clásico para el enlace */
+}
+
+.Hammond {
+    max-width: 100%;    /* La imagen nunca será más ancha que la pantalla */
+    width: 500px;        /* Ajusta el ancho a 500 píxeles */
+    height: auto;        /* La altura se ajusta automáticamente para no deformar la foto */
+    display: block;      /* Ayuda a que los márgenes funcionen correctamente */
+    margin-left: 30px;   /* Alinea el margen con los párrafos */
+    margin-top: 20px;    /* Espacio arriba de la foto */
+    margin-bottom: 20px; /* Espacio abajo de la foto */
+    border-radius: 8px;  /* OPCIONAL: Redondea ligeramente los bordes de la imagen */
+}
